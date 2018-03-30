@@ -48,6 +48,11 @@ class foe
             return this->damage * .5;
             else return 0;
     }
+
+    foe * who()
+    {
+        return this;
+    }
 };
 
 foe newFoe(enemy n) //generic "constructor" to create foes of the same type with the same fighting abilities

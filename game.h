@@ -257,8 +257,8 @@ void Game::roomClear(Character player)
 {
     clearScreen();
     int loc = player.location;
-    for (int i = 0; i < this->dungeon[loc].foes.size(); ++i);
-        //delete this->dungeon[loc].foes[i];
+    for (int i = 0; i < this->dungeon[loc].foes.size(); ++i)
+        delete this->dungeon[loc].foes[i].who();
     if (loc + 1 == number_Rooms)
     {
         std::cout << "You have cleared the dungeon, congratulations! \nPress enter to quit.";
