@@ -126,7 +126,7 @@ void Game::battle(Character player)
 
         if (player.HP < -25)
         {
-            std::cout << "The " << this->dungeon[loc].foes[0].what() << " are too many and you are overwhelmed, falling in battle. \n"
+            std::cout << "The " << this->dungeon[loc].foes[0].what() << " are too many\nYou are overwhelmed, falling in battle. "
                       << "You have died... Press enter to quit";
             std::cin.get();
             std::cin.get();
@@ -173,7 +173,7 @@ void Game::battle(Character player)
 
         if (player.HP < -25)
         {
-            std::cout << "The " << this->dungeon[loc].foes[0].what() << " are too many and you are overwhelmed, falling in battle. \n"
+            std::cout << "The " << this->dungeon[loc].foes[0].what() << " are too many\nYou are overwhelmed, falling in battle. "
                       << "You have died... Press enter to quit";
             std::cin.get();
             std::cin.get();
@@ -220,7 +220,7 @@ void Game::battle(Character player)
 
         if (player.HP < -25)
         {
-            std::cout << "The " << this->dungeon[loc].foes[0].what() << " are too many and you are overwhelmed, falling in battle. \n"
+            std::cout << "The " << this->dungeon[loc].foes[0].what() << " are too many\nYou are overwhelmed, falling in battle. "
                       << "You have died... Press enter to quit";
             std::cin.get();
             std::cin.get();
