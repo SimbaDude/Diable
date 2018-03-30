@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1522307294 source:c:\users\simba\documents\projects\diable\main.cpp
+	"game.h"
+
+1522406968 c:\users\simba\documents\projects\diable\game.h
+	<iostream>
+	<vector>
+	<cstdlib>
+	<ctime>
+	<string>
+	"character.h"
+	"foe.h"
+
+1522293667 c:\users\simba\documents\projects\diable\loot.h
+
+1522403035 c:\users\simba\documents\projects\diable\character.h
+
+1522406968 c:\users\simba\documents\projects\diable\foe.h
+
