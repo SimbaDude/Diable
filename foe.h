@@ -39,7 +39,7 @@ class foe
     {
         float FSRatio = (float)player.FP / player.FPmax;
         srand(time(nullptr));
-        int roll = (rand() % 40) + 1 + this->FS;
+        int roll = (rand() % 20) + 1 + this->FS;
         if (roll > player.FS *FSRatio + 20)
             return this->damage * 1.5;
         else if (roll > player.FS * FSRatio + 5)
@@ -61,13 +61,13 @@ foe newFoe(enemy n) //generic "constructor" to create foes of the same type with
         switch (n)
         {
             case kobold:
-                f = new foe(4, 20, kobold);
+                f = new foe(4, 30, kobold);
                 break;
             case goblin:
-                f = new foe(8, 20, goblin);
+                f = new foe(8, 35, goblin);
                 break;
             case skeleton:
-                f = new foe(16, 15, skeleton);
+                f = new foe(16, 25, skeleton);
                 break;
         }
 

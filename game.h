@@ -127,7 +127,7 @@ void Game::battle(Character player)
         if (player.HP < -25)
         {
             std::cout << "The " << this->dungeon[loc].foes[0].what() << " are too many\nYou are overwhelmed, falling in battle. "
-                      << "You have died... Press enter to quit";
+                      << "\nYou have died... Press enter to quit";
             std::cin.get();
             std::cin.get();
             return;
@@ -135,7 +135,7 @@ void Game::battle(Character player)
 
         else if (player.HP <= 0)
         {
-            std::cout << "You fought valiantly, and at your feet lay " << this->dungeon[loc].foes.size() << ' '
+            std::cout << "You fought valiantly\nAt your feet lay " << this->dungeon[loc].foes.size() << ' '
                       << "dead " << this->dungeon[loc].foes[0].what() << ". However you are mortally wounded in the battle. \n"
                       << "You rest now and after a short time you pass into the next life... \n"
                       << "You have died... Press enter to quit";
@@ -173,8 +173,8 @@ void Game::battle(Character player)
 
         if (player.HP < -25)
         {
-            std::cout << "The " << this->dungeon[loc].foes[0].what() << " are too many\nYou are overwhelmed, falling in battle. "
-                      << "You have died... Press enter to quit";
+            std::cout << "The " << this->dungeon[loc].foes[0].what() << " are too many\nYou are overwhelmed, falling in battle."
+                      << "\nYou have died... Press enter to quit";
             std::cin.get();
             std::cin.get();
             return;
@@ -182,7 +182,7 @@ void Game::battle(Character player)
 
         else if (player.HP <= 0)
         {
-            std::cout << "You fought valiantly, and at your feet lay " << this->dungeon[loc].foes.size() << ' '
+            std::cout << "You fought valiantly\nat your feet lay " << this->dungeon[loc].foes.size() << ' '
                       << "dead " << this->dungeon[loc].foes[0].what() << ". However you are mortally wounded in the battle. \n"
                       << "You rest now and after a short time you pass into the next life... \n"
                       << "You have died... Press enter to quit";
@@ -221,7 +221,7 @@ void Game::battle(Character player)
         if (player.HP < -25)
         {
             std::cout << "The " << this->dungeon[loc].foes[0].what() << " are too many\nYou are overwhelmed, falling in battle. "
-                      << "You have died... Press enter to quit";
+                      << "\nYou have died... Press enter to quit";
             std::cin.get();
             std::cin.get();
             return;
@@ -229,7 +229,7 @@ void Game::battle(Character player)
 
         else if (player.HP <= 0)
         {
-            std::cout << "You fought valiantly, and at your feet lay " << this->dungeon[loc].foes.size() << ' '
+            std::cout << "You fought valiantly.\nAt your feet lay " << this->dungeon[loc].foes.size() << ' '
                       << "dead " << this->dungeon[loc].foes[0].what() << ". However you are mortally wounded in the battle. \n"
                       << "You rest now and after a short time you pass into the next life... \n"
                       << "You have died... Press enter to quit";
