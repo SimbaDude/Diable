@@ -133,7 +133,7 @@ void Game::battle(Character player)
             return;
         }
 
-        else if (player.HP < 0)
+        else if (player.HP <= 0)
         {
             std::cout << "You fought valiantly, and at your feet lay " << this->dungeon[loc].foes.size() << ' '
                       << "dead " << this->dungeon[loc].foes[0].what() << ". However you are mortally wounded in the battle. \n"
@@ -180,7 +180,7 @@ void Game::battle(Character player)
             return;
         }
 
-        else if (player.HP < 0)
+        else if (player.HP <= 0)
         {
             std::cout << "You fought valiantly, and at your feet lay " << this->dungeon[loc].foes.size() << ' '
                       << "dead " << this->dungeon[loc].foes[0].what() << ". However you are mortally wounded in the battle. \n"
@@ -227,7 +227,7 @@ void Game::battle(Character player)
             return;
         }
 
-        else if (player.HP < 0)
+        else if (player.HP <= 0)
         {
             std::cout << "You fought valiantly, and at your feet lay " << this->dungeon[loc].foes.size() << ' '
                       << "dead " << this->dungeon[loc].foes[0].what() << ". However you are mortally wounded in the battle. \n"
