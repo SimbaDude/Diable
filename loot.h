@@ -1,6 +1,6 @@
 #ifndef LOOT_H_INCLUDED
 #define LOOT_H_INCLUDED
-
+ //                      THIS FILE WASN'T INCLUDED IN FINAL BUILD
 
 
 class loot
